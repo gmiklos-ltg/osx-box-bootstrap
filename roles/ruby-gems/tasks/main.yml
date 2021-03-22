@@ -47,6 +47,8 @@
 
 - name: "CocoaPods: pod repo update"
   shell: bash -l -c "pod repo update"
+  environment:
+    BITRISE_POD_REPO_UPDATE: 'off'
   when: not lookup('env', 'IS_CI')
 
 - name: "Ensure /opt/bitrise/bin exists before putting pod there"
@@ -57,3 +59,10 @@
     group: wheel
     mode: "0755"
   become: true
+
+- name: "Copy pod wrapper to machine"
+  copy:
+    src: files/opt/bitrise/bin/pod.sh
+    dest: /opt/bitrise/bin/pod
+    owner: "{{ param_user }}"
+    mode: "0777"
