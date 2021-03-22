@@ -48,3 +48,12 @@
 - name: "CocoaPods: pod repo update"
   shell: bash -l -c "pod repo update"
   when: not lookup('env', 'IS_CI')
+
+- name: "Ensure /opt/bitrise/bin exists before putting pod there"
+  file:
+    path: /opt/bitrise/bin
+    state: directory  # yamllint disable-line rule:truthy
+    owner: "{{ param_user }}"
+    group: wheel
+    mode: "0755"
+  become: true
