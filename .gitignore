@@ -5,3 +5,4 @@ roles/**/tests/__pycache__/*
 **/pytestdebug.log
 **/__pycache__
 .vscode/*
+_scripts/conventional-commits/*Brewfile.lock.json
