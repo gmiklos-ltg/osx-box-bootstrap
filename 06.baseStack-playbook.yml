@@ -29,5 +29,6 @@
     - role: misc-setup
     - role: node
     - role: ruby-gems
+    - role: simulators
     - role: weekly-update-shared
     - role: used-tools

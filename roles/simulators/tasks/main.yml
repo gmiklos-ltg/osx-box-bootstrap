@@ -16,7 +16,6 @@
 # and `xcrun simctl list` will take quite some time (~60 seconds).
 - name: xcrun simctl list
   shell: bash -l -c "xcrun simctl list"
-  become: true
 
 - name: Cleanup cached downloads
   shell: bash -l -c "xcversion cleanup"

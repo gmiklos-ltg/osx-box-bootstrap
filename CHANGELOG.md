@@ -1,5 +1,8 @@
 ## UPCOMING
 
+## `v2021_04_07`
+* `initialise simulators as vagrant, not root`
+
 ## `v2021_03_31`
 * `upgrade brew cache during weekly update`
 
