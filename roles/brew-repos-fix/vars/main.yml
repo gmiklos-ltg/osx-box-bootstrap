@@ -1,6 +1,6 @@
 ---
 homebrew_core:
-  sha: "8950942127872bd48cb22ab3f0a307df064b3b16"
+  sha: "9e21f78f8d3429f9fdd9390a76642dc1b8e63ed2"
 homebrew_cask:
-  sha: "c6777fb3c2fc229c307a00df49d525ce4be0595a"
+  sha: "f2ef2b1128740e5684f81a3ede7010194afea9dd"
 ...

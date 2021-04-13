@@ -1,5 +1,8 @@
 ## UPCOMING
 
+## `v2021_04_13`
+* `Update homebrew cask/core commit sha`
+
 ## `v2021_04_12`
 * `add LaunchAgent to unlock login.keychain on startup`
 
