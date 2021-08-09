@@ -4,7 +4,7 @@ android_ndk_home: /opt/android-ndk
 android_ndk_version: r21e
 android_origin: dl.google.com/android/repository
 android_ndk_source: https://{{ android_origin }}/android-ndk-{{ android_ndk_version }}-darwin-x86_64.zip
-android_cmdline_tools_version: 7302050
+android_cmdline_tools_version: 7583922
 android_cmdline_tools_source: https://{{ android_origin }}/commandlinetools-mac-{{ android_cmdline_tools_version }}_latest.zip  # yamllint disable-line rule:line-length
 sdkmanagerpackages:
   - "emulator"
