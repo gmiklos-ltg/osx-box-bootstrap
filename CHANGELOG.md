@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## `v2021_08_09_1`
+* `Upgrade Android SDK command line tools to version 7583922 for Java 11 compatibility.`
+
 ## `v2021_07_28_1`
 * `Correct the stack layers order`
 
